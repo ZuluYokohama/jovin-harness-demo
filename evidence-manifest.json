@@ -1,0 +1,240 @@
+{
+  "format": "jovin-demo.evidence.v1",
+  "classification": "synthetic-public-demo",
+  "repository": {
+    "full_name": "ZuluYokohama/jovin-harness-demo",
+    "id": 1464627803
+  },
+  "branch": "main",
+  "pull_request": 1,
+  "modules": [
+    {
+      "path": "sample/approval_policy.py",
+      "tests": "sample/tests.py"
+    }
+  ],
+  "policy": {
+    "path": "evidence/policy.json",
+    "sha256": "696da341eddcb63a0e5412c49502f03266a1f3c9ae9d35f5a7088deba76d12c7"
+  },
+  "artifacts": [
+    {
+      "path": "evidence/candidates/bad.py",
+      "bytes": 4654,
+      "sha256": "251a1b07ec0084a5d04c8157bb5e3da83220e875dea833ad7acd6b6936827dc1"
+    },
+    {
+      "path": "evidence/candidates/baseline.py",
+      "bytes": 4681,
+      "sha256": "76d2233e3c0531f88d30b8ce1f6e5aa7e564fce53a88f5608333cc1940fc7772"
+    },
+    {
+      "path": "evidence/candidates/fixed.py",
+      "bytes": 4681,
+      "sha256": "76d2233e3c0531f88d30b8ce1f6e5aa7e564fce53a88f5608333cc1940fc7772"
+    },
+    {
+      "path": "evidence/policy.json",
+      "bytes": 11675,
+      "sha256": "696da341eddcb63a0e5412c49502f03266a1f3c9ae9d35f5a7088deba76d12c7"
+    },
+    {
+      "path": "evidence/receipts/20261119T202924Z-5cbc9755408d.json",
+      "bytes": 1012,
+      "sha256": "c8d7ec6ef54a99ae2ff0c3fd3ba5ee44b22d2f355781720127d1047a246dab58"
+    },
+    {
+      "path": "evidence/receipts/20261119T202924Z-ed8479e93b32.json",
+      "bytes": 3680,
+      "sha256": "a4867c21ee3a5a84617b14bac630ae3982bb8543071aa44867da83b87dec05a3"
+    },
+    {
+      "path": "evidence/receipts/20261119T202931Z-9b6c922980c4.json",
+      "bytes": 655,
+      "sha256": "d173fbe8a3571675fcc1126e840495dea9896d9a7ec7425019b3cbc05e349f74"
+    },
+    {
+      "path": "evidence/receipts/20261119T202933Z-105968ab812a.json",
+      "bytes": 1107,
+      "sha256": "2c08c37434b6c216c66492666233972f2da5c87d1d4b2aab27407a66dcb9938b"
+    },
+    {
+      "path": "evidence/receipts/20261119T202933Z-5f325942984a.json",
+      "bytes": 974,
+      "sha256": "2e9ee64b5e0b97029e987846bbde08c46c16c4b006d2fe9c83c78544e9208550"
+    },
+    {
+      "path": "evidence/receipts/20261119T202933Z-96c15144ab59.json",
+      "bytes": 27086,
+      "sha256": "3558dcceb52bd8e4134f4f254dc8b337523458fe5e75bf8c714ff08df19b4751"
+    },
+    {
+      "path": "evidence/receipts/20261119T202935Z-2f19d874c181.json",
+      "bytes": 7679,
+      "sha256": "ddce268b0148e791195ae5abc4072e9bb11f96a0d101892245a1c97b1510d0e5"
+    },
+    {
+      "path": "evidence/receipts/20261119T202935Z-3c01cd06b944.json",
+      "bytes": 2896,
+      "sha256": "071734458c53f65af1e57d5875e7ac7d59e00e2136789fa581b774530365f759"
+    },
+    {
+      "path": "evidence/receipts/20261119T202935Z-b5e73b76316e.json",
+      "bytes": 2705,
+      "sha256": "f702a5a3eb3874cde8fa5f13ae2f30003eb4dbf3927d23d217874b723e2814b2"
+    },
+    {
+      "path": "evidence/receipts/20261119T202935Z-eaa1ff5a9254.json",
+      "bytes": 3524,
+      "sha256": "e2f8ef2ff076a7db9256566d9a31bf583e8835d998f71dfbe5100e71f3191bff"
+    },
+    {
+      "path": "evidence/receipts/20261119T202935Z-f985130e8a12.json",
+      "bytes": 3129,
+      "sha256": "1ca3712d278608cd08fff66363a57ccb8c778f00d94ea6327c14313c6cbe12d4"
+    },
+    {
+      "path": "evidence/receipts/20261119T202945Z-447e2d56c4e9.json",
+      "bytes": 27086,
+      "sha256": "737412742489952cf1f8bbe0cd1eda13c1d01bd813818e620f5d4de8fa8e269c"
+    },
+    {
+      "path": "evidence/receipts/20261119T202945Z-7727f95c0b75.json",
+      "bytes": 974,
+      "sha256": "bcf6289e4404b7cc09a51e97fa7f5311441c6249f07f5afc21e480a774ead294"
+    },
+    {
+      "path": "evidence/receipts/20261119T202945Z-c8e19aa6f7d0.json",
+      "bytes": 1107,
+      "sha256": "6322254d14f88465a52b4d2c9d51025256e8169508a8fe57fa18923a90dc80f4"
+    },
+    {
+      "path": "evidence/receipts/20261119T202946Z-1ea20aab0f89.json",
+      "bytes": 3454,
+      "sha256": "2ea72bd5f3c2aa04327057a06c515ed2291bb66c9d4396fe1c166dfeebcd009a"
+    },
+    {
+      "path": "evidence/receipts/20261119T202946Z-33a1b1d1e782.json",
+      "bytes": 3643,
+      "sha256": "aacf3f40549a84dd2ef2220c02b50716729b0813b29a3bba73c8d0aaece75c35"
+    },
+    {
+      "path": "evidence/receipts/20261119T202949Z-35dcf27e0b91.json",
+      "bytes": 2621,
+      "sha256": "f57aef51f016391679032970165b63e4859ffd2645cbc4fbb2894d1c10fcb959"
+    },
+    {
+      "path": "evidence/receipts/20261119T203121Z-294e41750298.json",
+      "bytes": 974,
+      "sha256": "cb66bd3fa9d16989ea98c263019425a356b605c923c6cee648a689786f015eb6"
+    },
+    {
+      "path": "evidence/receipts/20261119T203121Z-601ba4ff3de3.json",
+      "bytes": 1107,
+      "sha256": "300a283abfa483bfc634b2bb5ecf9f7866700d35bf00d1c2907970f34b6f93ab"
+    },
+    {
+      "path": "evidence/receipts/20261119T203121Z-652f7b0dc224.json",
+      "bytes": 27086,
+      "sha256": "8842c75707a366dc974b2fd9a02358748facf8bb0bc5ed72cbe2edf027b33d55"
+    },
+    {
+      "path": "evidence/receipts/20261119T203122Z-276b11e31307.json",
+      "bytes": 3524,
+      "sha256": "96cb8fc269db5decb0df1c4dfe042fe410fcf5758846a35c490dbc491601523a"
+    },
+    {
+      "path": "evidence/receipts/20261119T203122Z-4c1c51170124.json",
+      "bytes": 2705,
+      "sha256": "994f45652f3e451801170a85457c011a4722d27ec9fd77b869c9b1c32cf14a12"
+    },
+    {
+      "path": "evidence/receipts/20261119T203122Z-a962e4f81f6e.json",
+      "bytes": 3129,
+      "sha256": "6b1120edf51481bc46db75b733c9946dd1fd717aaad7732b9f3259f2725ceaaf"
+    },
+    {
+      "path": "evidence/receipts/20261119T203122Z-f3b7514391a8.json",
+      "bytes": 7679,
+      "sha256": "be7c5842d54da1d40ab0c70a96083d480d14f2e1fbf425af950a0d2c87e5516b"
+    },
+    {
+      "path": "evidence/receipts/20261119T203125Z-d54febe2b1ef.json",
+      "bytes": 2959,
+      "sha256": "a15146e210dea6058afa47173536160fdce1e32838ebaffadbfc57743b67cd4b"
+    },
+    {
+      "path": "evidence/receipts/index.jsonl",
+      "bytes": 4838,
+      "sha256": "c24e42d190131baa8f9d0541f457360b1783becb8f02f3f32e1ab0fbabfbf4d6"
+    },
+    {
+      "path": "evidence_tools/README.md",
+      "bytes": 5818,
+      "sha256": "e4417048ecb39f94fefca2ff30e247c518a8d091a6b520d736a515be7e0bbb5b"
+    },
+    {
+      "path": "evidence_tools/manifest.example.json",
+      "bytes": 2555,
+      "sha256": "28002e901111c4b95e24bf0ce80ba948da2f1663037e782f5174c3b778dcde53"
+    },
+    {
+      "path": "evidence_tools/manifest.schema.json",
+      "bytes": 4611,
+      "sha256": "a3103804d5bd6119248cdb7ce2b41d197f931159255aa3016af54679c0fb2baa"
+    },
+    {
+      "path": "evidence_tools/test_verify_evidence.py",
+      "bytes": 15769,
+      "sha256": "0a23bff31da0159664dea1ab42acc89b7463a38d257edc2c6376100ac0727271"
+    },
+    {
+      "path": "evidence_tools/verify_evidence.py",
+      "bytes": 22172,
+      "sha256": "3fd98e7649427fd1e16f23469d266917448d445776a7cf24a471c3a1a4c9108f"
+    },
+    {
+      "path": "sample/approval_policy.py",
+      "bytes": 4681,
+      "sha256": "76d2233e3c0531f88d30b8ce1f6e5aa7e564fce53a88f5608333cc1940fc7772"
+    },
+    {
+      "path": "sample/plan.json",
+      "bytes": 3102,
+      "sha256": "cdf490fdbfcaae9abb641b990fc953bf44e5560ea2bb8fcee1d567dcf04a4b8f"
+    },
+    {
+      "path": "sample/tests.py",
+      "bytes": 7420,
+      "sha256": "f79db562576d3847c996b6de692e14f516b80491fbae5999738a25e9b130397a"
+    }
+  ],
+  "chain": {
+    "index": "evidence/receipts/index.jsonl",
+    "count": 25,
+    "head_id": "20261119T203125Z-d54febe2b1ef",
+    "head_sha256": "dbc32477f13f8350d69d88d54c7965bc8208f3957aac20694b6b4d5ff4f05e7c"
+  },
+  "stages": {
+    "baseline": {
+      "commit": "63804cb8a9477b9ea0245bdf5f027ff88b8d0ee1",
+      "source": "evidence/candidates/baseline.py",
+      "gate_receipt_id": "20261119T202935Z-3c01cd06b944",
+      "gate_receipt_sha256": "6f36fbad0d46e16a44641523c8607cd73ed5cd38d92576f5beca1be40295b104"
+    },
+    "bad": {
+      "commit": "0e563002dad428b43379b6d292ac0f3c6cb241d7",
+      "source": "evidence/candidates/bad.py",
+      "gate_receipt_id": "20261119T202949Z-35dcf27e0b91",
+      "gate_receipt_sha256": "010f4067f5b03dca927e8f831845dac55d83f432e82ec48952054ca3a0543598",
+      "check_url": "https://github.com/ZuluYokohama/jovin-harness-demo/runs/135861077173"
+    },
+    "fixed": {
+      "commit": "346c47fd251834b8eb1bee10a4d5aec370e5f069",
+      "source": "evidence/candidates/fixed.py",
+      "gate_receipt_id": "20261119T203125Z-d54febe2b1ef",
+      "gate_receipt_sha256": "dbc32477f13f8350d69d88d54c7965bc8208f3957aac20694b6b4d5ff4f05e7c",
+      "check_url": "https://github.com/ZuluYokohama/jovin-harness-demo/runs/135862042735"
+    }
+  }
+}

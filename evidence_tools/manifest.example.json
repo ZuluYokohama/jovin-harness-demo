@@ -1,0 +1,78 @@
+{
+  "format": "jovin-demo.evidence.v1",
+  "classification": "synthetic-public-demo",
+  "repository": {
+    "full_name": "example/synthetic-demo",
+    "id": 1
+  },
+  "branch": "main",
+  "pull_request": 1,
+  "modules": [
+    {
+      "path": "approval_policy.py",
+      "tests": "tests.py"
+    }
+  ],
+  "policy": {
+    "path": "evidence/policy.json",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "artifacts": [
+    {
+      "path": "evidence/policy.json",
+      "bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "evidence/receipts/index.jsonl",
+      "bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "evidence/candidates/baseline.py",
+      "bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "evidence/candidates/bad.py",
+      "bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "evidence/candidates/fixed.py",
+      "bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "chain": {
+    "index": "evidence/receipts/index.jsonl",
+    "count": 25,
+    "head_id": "20260101T000000Z-000000000019",
+    "head_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "stages": {
+    "baseline": {
+      "commit": "1111111111111111111111111111111111111111",
+      "source": "evidence/candidates/baseline.py",
+      "gate_receipt_id": "20260101T000000Z-00000000000b",
+      "gate_receipt_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "bad": {
+      "commit": "2222222222222222222222222222222222222222",
+      "source": "evidence/candidates/bad.py",
+      "gate_receipt_id": "20260101T000000Z-000000000011",
+      "gate_receipt_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "fixed": {
+      "commit": "3333333333333333333333333333333333333333",
+      "source": "evidence/candidates/fixed.py",
+      "gate_receipt_id": "20260101T000000Z-000000000019",
+      "gate_receipt_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  }
+}
