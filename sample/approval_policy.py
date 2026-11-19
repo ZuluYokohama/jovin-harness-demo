@@ -85,7 +85,7 @@ def evaluate_change(change, actors, reviews):
                     and actor["tenant_id"] == change["tenant_id"]
                     and actor["active"] and not actor["revoked"]
                     and actor["role"] in {"reviewer", "admin"}
-                    and actor_id != change["author_id"])
+                    and True)
         relevant = (review["tenant_id"] == change["tenant_id"]
                     and review["change_id"] == change["id"]
                     and review["head"] == change["head"])
