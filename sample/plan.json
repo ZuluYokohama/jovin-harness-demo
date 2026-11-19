@@ -1,0 +1,28 @@
+{
+  "format": "jovin-harness.qa-plan.v1",
+  "project_id": "internal-simulated-team-trial",
+  "module": "demo.change_approval",
+  "prompt": "Evaluate a simulated SaaS team's change approvals under the explicitly defined tenant, role, revision, and quorum policy. This is an internal example, not a customer trial.",
+  "objective": "Check the pure approval decision on bounded plain-data records. Do not infer authentication, production integration, whole-service correctness, or market demand from these results.",
+  "acceptance": [
+    {"id": "TEAM01", "description": "Two current approvals from eligible reviewers satisfy the normal quorum.", "test": "test_current_authorized_quorum_allows"},
+    {"id": "TEAM02", "description": "Actor membership and event tenant must match the change; a foreign author cannot authorize evaluation.", "test": "test_tenant_boundaries_reject_forged_membership_and_events"},
+    {"id": "TEAM03", "description": "Inactive, revoked, ordinary-member, and unknown actors cannot supply approvals.", "test": "test_inactive_revoked_and_member_actors_cannot_approve"},
+    {"id": "TEAM04", "description": "An author cannot approve their own change, including an administrator author.", "test": "test_author_self_approval_is_denied_even_for_admin"},
+    {"id": "TEAM05", "description": "Quorums of one through three require distinct reviewers; repeated events cannot inflate the count.", "test": "test_quorum_counts_distinct_reviewers_at_each_threshold"},
+    {"id": "TEAM06", "description": "Other-change and stale-head events cannot authorize the change; stale change requests cannot veto it.", "test": "test_stale_and_unrelated_reviews_do_not_authorize_or_veto"},
+    {"id": "TEAM07", "description": "An eligible current request for changes blocks release even when other approvals satisfy the quorum.", "test": "test_current_request_changes_blocks_an_otherwise_satisfied_quorum"},
+    {"id": "TEAM08", "description": "A reviewer's latest current-head decision can withdraw an approval or replace a prior withdrawal or change request.", "test": "test_latest_current_decision_can_withdraw_or_replace_a_review"},
+    {"id": "TEAM09", "description": "Only open changes with a present, active, unrevoked author are eligible.", "test": "test_request_must_be_open_and_author_currently_available"},
+    {"id": "TEAM10", "description": "Unknown statuses, malformed records, duplicate actor identities, ambiguous review sequences, and invalid quorums fail closed.", "test": "test_unknown_statuses_and_malformed_records_fail_closed"},
+    {"id": "TEAM11", "description": "Sequence numbers, rather than record-list order, determine the latest current review.", "test": "test_sequence_numbers_control_decisions_independently_of_list_order"}
+  ],
+  "policy": {
+    "network": "none",
+    "isolation": "process",
+    "forbidden_imports": ["ctypes", "subprocess", "multiprocessing", "socket"],
+    "forbidden_calls": ["eval", "exec", "compile", "__import__", "os.system", "os.popen", "os.fork", "os.posix_spawn"],
+    "require_process_trace": false,
+    "require_network_trace": false
+  }
+}
